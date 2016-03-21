@@ -224,7 +224,8 @@ function create_config( )
     "invite",
     "all",
     "leave_ban",
-    "admin"
+    "admin",
+    "pligins"
     },
     sudo_users = {114022194,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
@@ -237,6 +238,7 @@ SuDo
 
 Special thanks to:
 @MR_XFACE
+ CHANNEL [https://telegram.me/DeaD_T34M]
 
 
 ]],
