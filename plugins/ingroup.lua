@@ -1431,11 +1431,11 @@ local function run(msg, matches)
           msgr = get_message(msg.reply_id, setowner_by_reply, false)
       end
     end
-    if matches[1] == 'dark' and  matches[2] == 'virus' then
-    	        return"DEAD_KINGs \n Advanced Bot Base On Seed\n@HYDRA007[CreaTor] \\n\n[@DeaD_T34M])"
+    if matches[1] == 'inthe' and  matches[2] == 'darkness' then
+    	        return"in the DARKNESS \n Advanced Bot Base On yaghob\n@HYDRA007[CreaTor] \\n\n[@DeaD_T34M])"
             end
-    if matches[1] == 'darkvirus' then
-    	return "DarK_ViRuS \n Advanced Bot Base On Seed\n@HYDRA007[CreaTor] \n\nspecial tanks to\n\n@KinG0fDeaD \n\n#Open_Source\n\n[@DeaD_T34M])"
+    if matches[1] == 'inthedarkness' then
+    	return "in the DARKNESS \n\n@HYDRA007[CreaTor] \n\nspecial tanks to\n\n@KinG0fDeaD \n\n#Open_Source\n\n[@DeaD_T34M])"
     end
     if matches[1] == 'owner' then
       local group_owner = data[tostring(msg.to.id)]['set_owner']
@@ -1600,14 +1600,14 @@ return {
   "^(rem)$",
   "^(rem) (realm)$",
   "^(rules)$",
-  "^([Dd]ark) (virus)$",
+  "^([Ii]nthe) (darkness)$",
   "^(about)$",
   "^(setname) (.*)$",
   "^(setphoto)$",
   "^(promote) (.*)$",
   "^(promote)",
   "^(help)$",
-  "^([Dd]arkvirus)$",
+  "^([Ii]nthedarkness)$",
   "^(clean) (.*)$",
   "^(kill) (chat)$",
   "^(kill) (realm)$",
