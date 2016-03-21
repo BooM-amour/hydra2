@@ -225,7 +225,7 @@ function create_config( )
     "all",
     "leave_ban",
     "admin",
-    "pligins"
+    "plugins"
     },
     sudo_users = {114022194,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
@@ -412,7 +412,7 @@ addhydra to support
 » Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
 
 » Only owner can use res,setowner,promote,demote and log commands
-
+Creator: @HYDRA007
 ]]
   }
   serialize_to_file(config, './data/config.lua')
