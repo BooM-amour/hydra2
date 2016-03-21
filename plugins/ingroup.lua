@@ -1432,10 +1432,10 @@ local function run(msg, matches)
       end
     end
     if matches[1] == 'inthe' and  matches[2] == 'darkness' then
-    	        return"in the DARKNESS \n Advanced Bot Base On yaghob\n@HYDRA007[CreaTor] \\n\n[@DeaD_T34M])"
+    	        return"in the DARKNESS \n Advanced Bot Base On yaghob\n@HYDRA007[CreaTor] \n\n https://telegram.me/inthedarknessbot)"
             end
     if matches[1] == 'inthedarkness' then
-    	return "in the DARKNESS \n\n@HYDRA007[CreaTor] \n\nspecial tanks to\n\n@KinG0fDeaD \n\n#Open_Source\n\n[@DeaD_T34M])"
+    	return "in the DARKNESS \n\n@HYDRA007[CreaTor] \n\nspecial tanks to\n\n@MR_xFACE \n\n#Open_Source\n\n[@DeaD_T34M])"
     end
     if matches[1] == 'owner' then
       local group_owner = data[tostring(msg.to.id)]['set_owner']
